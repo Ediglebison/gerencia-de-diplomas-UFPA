@@ -1,0 +1,29 @@
+{
+  "gerenciamentodeDiplomasApp": {
+    "defesa": {
+      "home": {
+        "title": "Defesas",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Defesa",
+        "createOrEditLabel": "Criar ou editar Defesa",
+        "notFound": "Nenhum Defesa encontrado"
+      },
+      "created": "Um novo Defesa foi criado com o identificador {{ param }}",
+      "updated": "Um Defesa foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Defesa foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Defesa {{ id }}?"
+      },
+      "detail": {
+        "title": "Defesa"
+      },
+      "id": "ID",
+      "aluno": "Aluno",
+      "codDefesa": "Cod Defesa",
+      "statusDefesa": "Status Defesa",
+      "data": "Data",
+      "codDefesa": "Cod Defesa",
+      "aluno": "Aluno"
+    }
+  }
+}

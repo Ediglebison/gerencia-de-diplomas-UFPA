@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704200935",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "processo",
+  "fields": [
+    {
+      "fieldName": "sipac",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "inicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "defesa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "enviadoBiblioteca",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "entregaDiploma",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Processo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "defesa",
+      "otherEntityRelationshipName": "codDefesa",
+      "relationshipName": "defesa",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

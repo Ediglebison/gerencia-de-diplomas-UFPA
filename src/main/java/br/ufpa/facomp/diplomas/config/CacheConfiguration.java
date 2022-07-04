@@ -48,6 +48,12 @@ public class CacheConfiguration {
             createCache(cm, br.ufpa.facomp.diplomas.domain.User.class.getName());
             createCache(cm, br.ufpa.facomp.diplomas.domain.Authority.class.getName());
             createCache(cm, br.ufpa.facomp.diplomas.domain.User.class.getName() + ".authorities");
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Usuario.class.getName());
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Processo.class.getName());
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Processo.class.getName() + ".defesas");
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Defesa.class.getName());
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Aluno.class.getName());
+            createCache(cm, br.ufpa.facomp.diplomas.domain.Aluno.class.getName() + ".nomes");
             // jhipster-needle-ehcache-add-entry
         };
     }

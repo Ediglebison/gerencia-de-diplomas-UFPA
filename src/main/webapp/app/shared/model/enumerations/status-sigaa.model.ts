@@ -1,0 +1,13 @@
+export enum StatusSIGAA {
+  ATIVO = 'ATIVO',
+
+  CONCLUIDO = 'CONCLUIDO',
+
+  EXCLUIDO = 'EXCLUIDO',
+
+  FORMANDO = 'FORMANDO',
+
+  GRADUANDO = 'GRADUANDO',
+
+  TRANCADO = 'TRANCADO',
+}

@@ -1,0 +1,10 @@
+{
+  "gerenciamentodeDiplomasApp": {
+    "StatusDefesa": {
+      "null": "",
+      "ATIVO": "ATIVO",
+      "CONCLUIDO": "CONCLUIDO",
+      "DEFENDIDO": "DEFENDIDO"
+    }
+  }
+}
