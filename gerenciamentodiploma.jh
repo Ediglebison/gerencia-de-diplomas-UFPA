@@ -1,0 +1,47 @@
+entity Usuario{
+	login String
+    password String
+}
+
+entity Processo {
+	sipac String
+    inicio LocalDate
+    defesa String
+    enviadoBiblioteca Boolean
+    entregaDiploma Boolean
+}
+
+entity Defesa {
+	aluno String
+    codDefesa String
+    statusDefesa StatusDefesa
+    data LocalDate
+}
+
+enum StatusDefesa {
+	ATIVO
+    CONCLUIDO
+    DEFENDIDO
+}
+
+entity Aluno {
+	nome String required
+    matricula String
+    statusSIGAA StatusSIGAA
+}
+
+enum StatusSIGAA {
+	ATIVO
+    CONCLUIDO
+    EXCLUIDO
+    FORMANDO
+    GRADUANDO
+    TRANCADO
+}
+
+relationship ManyToOne {
+	Usuario{login} to Processo
+    Defesa{codDefesa} to Processo{defesa}
+    Defesa{aluno} to Aluno{nome}
+}
+

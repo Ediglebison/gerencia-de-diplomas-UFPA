@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704200934",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "usuario",
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Usuario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "processo",
+      "otherEntityRelationshipName": "usuario",
+      "relationshipName": "login",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

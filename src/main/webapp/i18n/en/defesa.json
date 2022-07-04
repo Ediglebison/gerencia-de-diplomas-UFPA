@@ -1,0 +1,29 @@
+{
+  "gerenciamentodeDiplomasApp": {
+    "defesa": {
+      "home": {
+        "title": "Defesas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Defesa",
+        "createOrEditLabel": "Create or edit a Defesa",
+        "notFound": "No Defesas found"
+      },
+      "created": "A new Defesa is created with identifier {{ param }}",
+      "updated": "A Defesa is updated with identifier {{ param }}",
+      "deleted": "A Defesa is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Defesa {{ id }}?"
+      },
+      "detail": {
+        "title": "Defesa"
+      },
+      "id": "ID",
+      "aluno": "Aluno",
+      "codDefesa": "Cod Defesa",
+      "statusDefesa": "Status Defesa",
+      "data": "Data",
+      "codDefesa": "Cod Defesa",
+      "aluno": "Aluno"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20220704200936",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "defesa",
+  "fields": [
+    {
+      "fieldName": "aluno",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codDefesa",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusDefesa",
+      "fieldType": "StatusDefesa",
+      "fieldValues": "ATIVO,CONCLUIDO,DEFENDIDO"
+    },
+    {
+      "fieldName": "data",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Defesa",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "processo",
+      "otherEntityRelationshipName": "defesa",
+      "relationshipName": "codDefesa",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "aluno",
+      "otherEntityRelationshipName": "nome",
+      "relationshipName": "aluno",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
